@@ -83,3 +83,103 @@ This project is part of my Oasis Infobyte Data Science Internship (Task 2).
 The goal of this task is to perform Customer Segmentation Analysis on an E-commerce dataset to uncover meaningful customer groups, behaviors, and insights that can help businesses make data-driven marketing and sales decisions.
 Thanks to Oasis Infobyte for the opportunity to learn and work on real-world datasets.
 
+## Project Overview
+
+In this project, I worked with an E-commerce customer transaction dataset and performed:
+
+Data Cleaning & Preprocessing (handling missing values, duplicates, negative values)
+
+Descriptive Statistics (Recency, Frequency, Monetary – RFM metrics)
+
+Feature Engineering (building customer behavior features)
+
+Customer Segmentation using K-Means Clustering
+
+Data Visualization (Scatter plots, Bar charts, Cluster visualizations)
+
+Insights & Recommendations for business strategies
+
+## Dataset
+
+The dataset contains retail transaction details such as:
+
+InvoiceNo: Unique transaction identifier
+
+StockCode: Product code
+
+Description: Product description
+
+Quantity: Number of items purchased
+
+InvoiceDate: Transaction date & time
+
+UnitPrice: Price per unit
+
+CustomerID: Unique customer identifier
+
+Country: Customer’s country
+
+(Dataset: E-commerce Data – Kaggle
+)
+
+## Technologies Used
+
+Python
+
+Pandas, NumPy → Data handling & cleaning
+
+Matplotlib, Seaborn → Visualizations
+
+Scikit-learn → Machine Learning (Clustering, Scaling)
+
+## Key Insights
+
+ Customers can be segmented into 4 groups:
+
+ VIP Loyal Customers (frequent & high spenders)
+
+ Regular Shoppers (steady but moderate purchases)
+
+ Lost Customers (inactive, long recency)
+
+ Bargain Shoppers (low frequency, small purchases)
+
+Top customers contribute the majority of revenue → loyalty programs can boost retention.
+
+Some customers are inactive for long periods → reactivation campaigns can be run.
+
+High-value customers purchase more regularly → premium offers should target them.
+
+## Recommendations
+
+Provide loyalty rewards for VIP customers.
+
+Run win-back campaigns (emails, discounts) for inactive customers.
+
+Offer personalized discounts to regular shoppers to increase purchase frequency.
+
+Bundle low-value items for bargain shoppers to increase total spend.
+
+## Report
+
+The detailed analysis includes:
+RFM Model (Recency, Frequency, Monetary metrics)
+Cluster Visualization
+Customer Segment Profiles
+Actionable Business Recommendations
+ ## How to Run Clone this repository:
+
+1. git clone https://github.com/your-username/Customer-Segmentation.git
+cd Customer-Segmentation
+
+2. Install required libraries:
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+3. Run the segmentation script:
+ python customer_segmentation.py
+
+ ## Acknowledgment
+
+This project was completed as part of my Oasis Infobyte Data Science Internship (Task 2).
+Thanks to Oasis Infobyte for the opportunity to work on real-world datasets and apply data science techniques.
+
