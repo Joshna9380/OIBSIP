@@ -75,4 +75,11 @@ In this project, I worked on a retail dataset and performed:
 ## Acknowledgment
 
 This project was completed as part of my Oasis Infobyte Data Science Internship (Task 1).
+
+
+## Customer Segmentation Analysis[Task-2]
+
+This project is part of my Oasis Infobyte Data Science Internship (Task 2).
+The goal of this task is to perform Customer Segmentation Analysis on an E-commerce dataset to uncover meaningful customer groups, behaviors, and insights that can help businesses make data-driven marketing and sales decisions.
 Thanks to Oasis Infobyte for the opportunity to learn and work on real-world datasets.
+
