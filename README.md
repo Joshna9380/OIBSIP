@@ -126,7 +126,7 @@ Python
    -Bargain Shoppers (low frequency, small purchases)
    -Top customers contribute the majority of revenue → loyalty programs can boost retention.
    -Some customers are inactive for long periods → reactivation campaigns can be run.
-   -High-value customers purchase more regularly → premium offers should target them.
+    -High-value customers purchase more regularly → premium offers should target them.
 
 ## Recommendations
 
