@@ -142,6 +142,7 @@ The detailed analysis includes:
 -Cluster Visualization
 -Customer Segment Profiles
 -Actionable Business Recommendations
+
  ## How to Run Clone this repository:
 
 1. git clone https://github.com/your-username/Customer-Segmentation.git
@@ -157,4 +158,59 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 This project was completed as part of my Oasis Infobyte Data Science Internship (Task 2).
 Thanks to Oasis Infobyte for the opportunity to work on real-world datasets and apply data science techniques.
+
+#  Data Cleaning Project – NYC Airbnb Open Data[Task-3]
+
+##  Project Overview
+This project demonstrates **data cleaning techniques** using the **New York City Airbnb Open Data**.  
+The dataset contains information about Airbnb listings in NYC, but it includes missing values, duplicates, inconsistencies, and outliers.  
+Cleaning ensures the dataset is **accurate, consistent, and reliable** for future analysis or machine learning.  
+
+## Key Concepts & Challenges
+- **Data Integrity** – Verified accuracy and consistency  
+- **Missing Data Handling** – Filled missing host names, reviews, etc.  
+- **Duplicate Removal** – Eliminated duplicate listings  
+- **Standardization** – Unified column names and formats  
+- **Outlier Detection** – Detected and capped extreme prices & stay durations  
+
+## Dataset
+- **Source**: [NYC Airbnb Open Data – Kaggle](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)  
+- **Attributes**:  
+  - `id`, `name`, `host_id`, `host_name`  
+  - `neighbourhood_group`, `neighbourhood`  
+  - `latitude`, `longitude`  
+  - `room_type`, `price`, `minimum_nights`  
+  - `number_of_reviews`, `last_review`, `reviews_per_month`  
+  - `calculated_host_listings_count`, `availability_365`  
+
+## Technologies Used
+- Python  
+- Pandas / NumPy → Data handling  
+- Matplotlib / Seaborn → Visualization  
+
+## How to Run
+1. Clone this repo:
+   git clone https://github.com/your-username/data-cleaning-airbnb.git
+   cd data-cleaning-airbnb
+   
+2. Install dependencies:
+    pip install -r requirements.txt
+
+3. Run cleaning script:
+    python data_cleaning_airbnb.py
+
+## Results
+
+-Missing values handled (host_name, last_review, reviews_per_month)
+-Duplicates removed
+-Outliers detected & capped (e.g., price > $1000, min nights > 365)
+-Final cleaned dataset saved as cleaned_airbnb_data.csv
+
+## Acknowledgment
+
+This project is part of my Oasis Infobyte Data Science Internship (Task-3).
+Thanks to Oasis Infobyte for the opportunity to apply real-world data cleaning techniques.
+
+
+
 
